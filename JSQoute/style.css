@@ -1,0 +1,121 @@
+body{
+    background: #222f3e;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50vw;
+    height: 70vh;
+    background: var(--main-color);
+    border-radius: 5px;
+    font-family: "dancing script",cursive;
+    overflow: hidden;
+    color: #797d7f;
+    letter-spacing: 0.5px;
+    display: grid;
+    place-items: center;
+}
+.inner{
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    opacity: 1;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 70%;
+    -webkit-transform: translate(-50%,-50%) ;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 1.5rem rgba(0,0,0,0.5);
+    font-size: 1.3rem;
+}
+.number::before{
+    content: "";
+    position: absolute;
+    top: -130px;
+    right: -30;
+    width: 90px;
+    height: 200px;
+    background: var(--secondary-color);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    z-index: -1;
+    box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.5);
+}
+.number{
+    font-family: var(--sans);
+    position: absolute;
+    margin: 0;
+    top: 15px;
+    right: 15px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.number img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: -25px;
+    top: -7px;
+    cursor: pointer;
+    animation: rot 1s linear;
+}
+.number:hover img{
+    animation: rot 1s linear;
+}
+@keyframes rot{
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(236deg);
+    }
+}
+.quote{
+    position: absolute;
+    top: 35%;
+    left:50%;
+    color: rgb(179, 177, 177);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+    width: 80%;
+    font-size: 1.2rem;
+}
+.author {
+    position: absolute;
+    top: 65%;
+    left: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 80%;
+    color: rgb(179, 177, 177);
+    font-size: 1rem;
+}
+.start_quote{
+    position: absolute;
+    top: 15%;
+    left: 6%;
+    color: rgb(179, 177, 177);
+    font-size: 30px;
+}
+.button {
+    position: absolute;
+    top: 82%;
+    color: white;
+    text-align: center;
+    background: rgb(26, 26, 236);
+    /* left: 100%; */
+    /* -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    width: 100%;
+    font-size: 1rem;
+}

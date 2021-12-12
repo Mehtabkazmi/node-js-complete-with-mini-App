@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name":"Mehtab kazmi",
+        "username":"kazmi",
+        "email":"mehtab@gmail,com",
+        "address":{
+            "street": "township", 
+            "suite": "apt 354"
+        },
+        "zipcode": 45453
+    },
+    {
+        "id": 2,
+        "name":"haider kazmi",
+        "username":"haider",
+        "email":"haider@gmail,com",
+        "address":{
+            "street": "lahore", 
+            "suite": "apt 3544"
+        },
+        "zipcode": 4453
+    },
+
+    {
+        "id": 3,
+        "name":"Ali kazmi",
+        "username":"Ali",
+        "email":"Ali@gmail,com",
+        "address":{
+            "street": "islamabad", 
+            "suite": "apt 3354"
+        },
+        "zipcode": 453
+    },
+    {
+        "id": 4,
+        "name":"Zain kazmi",
+        "username":"Zain",
+        "email":"Zain@gmail,com",
+        "address":{
+            "street": "city", 
+            "suite": "apt 3454"
+        },
+        "zipcode": 76545
+    }
+]
